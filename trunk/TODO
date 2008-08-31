@@ -1,0 +1,10 @@
+Bugs:
+	rewrite_host causes things to never cache (fixed?)
+		
+Todo:
+	Prevent request pileup
+	Properly refetch pages that time out
+	Increase default request timeout
+	Add reconnect code to memcache library
+	Cache dependencies for cached pages so they don't get scanned on every request
+	syntax for either purging or mark dirty
